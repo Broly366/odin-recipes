@@ -1,25 +1,29 @@
-* {
-    line-height: 1.5;
-    background-color: bisque;
+body {
+    background-color: rosybrown;
+}
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: light;
+}
+
+button {
     text-align: center;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+.food {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-img {
-    width: 200px;
+.pizza {
+    background-color: red;
 }
 
-ul {
-    list-style: none;
+.poke {
+    background-color: lightsalmon;
 }
 
-h1 {
-    color: darkred;
-}
-
-a {
-    color: black;
+.pasta {
+    background-color: beige;
 }
