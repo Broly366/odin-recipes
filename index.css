@@ -1,29 +1,38 @@
 body {
-    background-color: rosybrown;
+    background-color: bisque;
 }
 
 
-h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: light;
+
+div.all {
+    text-align: center;
+    padding: 350px;
+    margin: auto;
+    border: 2px;
 }
+
 
 button {
-    text-align: center;
+    border-radius: 12px;
 }
 
 .food {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px;
+    margin: 10px;
 }
 
-.pizza {
+.pizza:hover {
     background-color: red;
+    transition-duration: 0.4s;
 }
 
-.poke {
+.poke:hover {
     background-color: lightsalmon;
+    transition-duration: 0.4s;
 }
 
-.pasta {
+.pasta:hover {
     background-color: beige;
+    transition-duration: 0.4s;
 }
